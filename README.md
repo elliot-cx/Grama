@@ -1,6 +1,6 @@
 # Graph Map Analysis - Grama
 
-![image-20221022201904235](C:\Users\Elliot\AppData\Roaming\Typora\typora-user-images\image-20221022201904235.png)
+![img](https://cdn.discordapp.com/attachments/929500253734969378/1033444615568773191/image-20221022201904235.png)
 
 ## <u>Présentation du projet</u>
 
