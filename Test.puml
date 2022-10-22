@@ -1,0 +1,38 @@
+@startuml
+annotation java.lang.Override
+class java.awt.Color
+class java.awt.Point
+class java.io.IOException
+class java.lang.RuntimeException
+class java.nio.file.Files
+class java.nio.file.Path
+class java.util.ArrayList
+class java.util.Arrays
+class java.util.LinkedList
+class java.util.List
+class java.util.Objects
+class models.Graph
+class models.Lien
+class models.Noeud
+class models.exeptions.MauvaisType
+models.Graph ..> java.awt.Point
+models.Graph ..> java.io.IOException
+models.Graph ..> java.nio.file.Files
+models.Graph ..> java.nio.file.Path
+models.Graph ..> java.util.ArrayList
+models.Graph ..> java.util.LinkedList
+models.Graph ..> java.util.List
+models.Lien ..> java.lang.Override
+models.Lien ..> java.util.Arrays
+models.Lien ..> java.util.Objects
+models.Lien ..> models.exeptions.MauvaisType
+models.Noeud ..> java.lang.Override
+models.Noeud ..> java.awt.Color
+models.Noeud ..> java.awt.Point
+models.Noeud ..> java.util.ArrayList
+models.Noeud ..> java.util.Arrays
+models.Noeud ..> java.util.LinkedList
+models.Noeud ..> java.util.Objects
+models.Noeud ..> models.exeptions.MauvaisType
+models.exeptions.MauvaisType --|> java.lang.RuntimeException
+@enduml
